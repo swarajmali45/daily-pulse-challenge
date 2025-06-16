@@ -91,3 +91,9 @@ Sort by `date_utc, region_code, proj_type_code`.
 * Median rounding: `int(round(x / 25.0)) * 25`
 * For a quick sentiment baseline: `pip install textblob`
 * Want anonymization? Drop buckets `< 5` rows or add `np.random.laplace(0, 1)` to counts.
+
+## My README
+
+Region map: city → LA/NY/CHI/etc.  
+Project-type map: film→F, series→T, commercial→C, voice/other→V  
+Sentiment: TextBlob  
